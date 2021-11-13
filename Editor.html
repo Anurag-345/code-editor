@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font cdns -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=
+            Mochiy+Pop+P+One&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <!-- codemirror libraries -->
+    <script src="codemirror/lib/codemirror.js"></script>
+    <link href="codemirror/lib/codemirror.css" rel="stylesheet">
+    <script src="codemirror/mode/xml/xml.js"></script>
+    <script src="codemirror/mode/css/css.js"></script>
+    <script src="codemirror/mode/javascript/javascript.js"></script>
+    <!-- bootstrap cdns -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <title>Quick code-Editor</title>
+    <link rel="stylesheet" href="css/Editor.css">
+</head>
+<body>
+    <div class="Nav">
+        <!-- navbar section start -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+            <a class="navbar-brand" href="#" style="margin-left: 10%;">Quick code <span style="color: rgb(248, 248, 19);">/..></span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="collapsibleNavbar">
+               
+                <ul class="navbar-nav ml-auto">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown"
+                            href="#">Help<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <p>gsgxhgjcgfxgxu</p>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- navbar section end -->
+    </div>
+    
+
+
+    <!-- main -->
+    <div class ="main">
+      
+        <!-- editor areas -->
+        <div class="editor">
+            <div class="Html-area">
+                <button id="logo-buttons" style="color: orange;" >HTML</button>
+                <textarea id="Html-code" placeholder="Write your HTML code here..."></textarea>
+                <button id="clr1">clear</button>
+            </div>
+            
+            <div class="css-area">
+                <button id="logo-buttons" style="color: rgb(40, 40, 247);">CSS</button>
+                <textarea id="css-code"  placeholder="Write your CSS code here..."></textarea>
+                <button id="clr2">clear</button>
+            </div>
+           
+           <div class="js-area">
+                <button id="logo-buttons" style="color: rgb(248, 248, 19);">JAVASRIPT</button>
+            <textarea id="js-code" placeholder="Write your JAVASCRIPT code here..."></textarea>
+            <button id="clr3">clear</button>
+           </div>
+            
+        </div>
+        <!-- editor areas end -->
+        
+
+        <!-- output area -->
+        <div class="preview">
+            <h1>OUTPUT</h1>
+            <iframe id="Output"></iframe>
+        </div>
+        <!-- output area end -->
+    </div>
+
+
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

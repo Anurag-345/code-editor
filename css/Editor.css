@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    height:fit-content;
+    width: 100vw;
+    background-color: whitesmoke;
+}
+.Nav{
+    height: fit-content;
+    width: 100vw;
+    /* position:fixed; */
+}
+
+
+/* navbar section */
+.navbar:before{
+
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	z-index: -3;
+	background: linear-gradient(to right,rgb(19, 18, 18) 12%,rgb(43, 39, 43) 100%);
+	
+}
+.nav-item a{
+	color: #fff!important; 
+	font-weight: bold;
+}
+.nav-item a{
+	color: #fff!important;
+    
+	
+}
+#help-para{
+	color: white;
+}
+.navbar-nav{
+	margin-right: 100px;
+	margin-left: 50px;
+}
+
+[type="checkbox"]{
+    -webkit-appearance: none;
+    visibility: hidden;
+    display: none;
+
+}
+
+.check{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 25px;
+    background-color: rgb(5, 8, 49);
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: ease-in 0.5s;
+
+
+
+}
+
+
+/* navbar section end */
+
+
+/* editor section */
+.editor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: aquamarine; */
+    /* text-align: center; */
+    margin-top: 50px;
+    height: fit-content;
+    align-items: center;
+    justify-content:space-around;
+}
+.Html-area,.css-area,.js-area{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 30px;
+    min-width: 420px;
+    min-height: 420px;
+    max-height:400px;
+    background-color:rgb(151, 148, 148);
+    padding: 20PX;
+    /* color: whitesmoke; */
+    border-radius:20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+} 
+#Html-code,#css-code,#js-code{
+    
+    min-width: 350px;
+    min-height: 250px;
+    max-height:400px;
+    resize: both;
+    background-color:whitesmoke;
+    padding: 20PX;
+    /* color: whitesmoke; */
+    
+    /* border-radius:20px; */
+
+} 
+#logo-buttons{
+    background-color:rgb(24, 23, 23) ;
+    color: whitesmoke;
+    width: fit-content;
+    font-size: larger;
+    padding:0px 10px 0px 10px;
+    
+    /* border: 1px solid rgb(114, 106, 106); */
+    
+}
+#clr1,#clr2,#clr3{
+    position: relative;
+    margin-top: 10px;
+    padding: 2px;
+    width: 3rem;
+    left: 90%;
+}
+h1{
+    color: rgb(26, 24, 37);
+    margin:15px 0px 5px 10px;
+    text-decoration: overline 4px solid rgb(26, 24, 37);
+}
+/* editor section end */
+
+
+
+/* output section */
+.preview{
+    margin: 30px 0px 0px 0px;
+    /* border: 1px solid whitesmoke; */
+    height:fit-content;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+#Output{
+    width: 100vw;
+    height:30vh;
+    background-color: rgb(212, 206, 206);
+    border-top: 15px solid rgb(26, 24, 37);
+}
+
+/* dark mode  button */
+
