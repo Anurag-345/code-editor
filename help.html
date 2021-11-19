@@ -1,87 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HELP</title>
     <style>
-        * {
+        *{
             margin: 0;
             padding: 0;
 
         }
-
-        .main {
+        .main{
             height: 100vh;
             width: 100vw;
-            background: linear-gradient(rgba(71, 66, 66, 0.9), rgba(12, 12, 12, 0.9));
+            background:linear-gradient(rgba(71, 66, 66, 0.9),rgba(12, 12, 12, 0.9));
             display: flex;
             flex-direction: column;
             text-align: center;
             align-items: center;
             justify-content: center;
         }
-
-        form {
+        form{
             display: flex;
             flex-direction: column;
             text-align: center;
             align-items: center;
-            justify-content: space-between;
-
+            justify-content:space-between;
+            
         }
-
-        input {
-            margin-top: 20px;
-            width: 40vw;
+        input{
+            margin-top:20px ;
+            width:40vw;
             border-radius: 5px;
             border: none;
             padding: 10px;
         }
-
-        textarea {
+        textarea{
             margin: 20px 0 20px 0;
-            min-width: 40vw;
+            min-width:40vw;
             min-height: 20vh;
-            max-width: 40vw;
+            max-width:40vw;
             max-height: 20vh;
             border-radius: 5px;
             border: none;
             padding: 10px;
 
         }
-
-        button {
-            border: none;
-            border-radius: 100px;
-            margin: 0 5px;
-            padding: 6px 15px;
-            outline: none;
-            font-size: 1rem;
+        button{
+	        border: none;
+	        border-radius: 100px;
+	        margin: 0 5px;
+	        padding: 6px 15px;
+	        outline: none;
+	        font-size: 1rem;
             color: rgb(243, 243, 115);
             background-color: black;
-
+	        
 
         }
+
     </style>
 </head>
-
 <body>
     <div class="main">
-        <h1>CONATCT US</h1>
-   
+        <h1>Write your query below, we will get in touch with you shortly.</h1>
         <form action="https://formsubmit.co/anuragnayak345@gmail.com" method="POST">
             <input type="email" name="email" placeholder="Enter your email" required>
             <input type="text" name="name" placeholder="Enter your name" required>
             <textarea placeholder="write your message..."></textarea>
             <button type="submit">Send</button>
-            <P> you can write to us at <span><a href="#"
-                        style="text-decoration: none; color: white;">anuragnayak345@gmail.com</a></span></P>
         </form>
     </div>
-
+    
 </body>
-
 </html>
